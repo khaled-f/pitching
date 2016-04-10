@@ -32,8 +32,8 @@ class MonkiesController < ApplicationController
   end
 
   def list
-    puts @list
     @list = Monkey.all
+    puts @list
   end
 
   def list_monkey
@@ -41,6 +41,4 @@ class MonkiesController < ApplicationController
     puts "this is the name of the monkey"
     puts monkey_name
   end
-
-
 end
