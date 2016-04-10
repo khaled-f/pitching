@@ -3,11 +3,11 @@
 }
 
   a {
-  	color:red;
+  	color:black;
   }
   p {
   	background: #000;
-  	color: white;
+  	color: black;
   	padding: 10px 0px 10px 10px;
   	width:155px ;
   	 
@@ -16,18 +16,18 @@
 
 * { 
 	
-	   color: red;
+	   color: black;
 }
 
  body {
-	   background-image: url("nature.jpg");
+	   background-image: url("http://orig02.deviantart.net/4f4e/f/2007/032/7/2/opeth_by_alex_imam.jpg");
 	   background-size: 100%;
 
 }
 
 
 .secondary {
-	background: #999;
+	background: #555;
 	color: #323;	
 }
 
@@ -48,7 +48,7 @@
 
    header {
    
-   	color:white;
+   	color:grey;
    	padding: 0;
    }
 
@@ -61,7 +61,7 @@ nav ul li {
 	margin: 0px;
 	padding: 5px 15px;
 	background: #000;
-	color: white;
+	color: grey;
 	float: right;
 
 } 

@@ -24,11 +24,15 @@ Rails.application.routes.draw do
   get "user/view_user"
   get "monkies/list"
   get "user/vie_user"
+
   post "monkies/create"
   get 'monkies/new'
+
   get "monkies" => "monkies#index"
   get "monkies/:number_of_monkies" => "monkies#index"
-
+  get "monkies/new"
+  get "monkies/list"
+  get "monkies/list/:name_of_monkey"=>'monkies#list_monkey'
 
   get "user/save_user"
   post "user/save_user"
