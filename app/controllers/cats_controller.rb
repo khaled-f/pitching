@@ -7,7 +7,7 @@ class CatsController < ApplicationController
   if  cats_integer <100
   	  @cats_in_html = cats_integer
   else
-  	  @warning ="fuck off" + cats_integer.to_s
+  	  @warning ="Unable to show" + cats_integer.to_s
     end
   end
 end
